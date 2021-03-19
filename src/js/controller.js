@@ -127,6 +127,7 @@ const controlUploadRecipe = async function (newRecipe) {
 };
 
 const init = function () {
+  console.log('Welcome to this application!');
   // Subscribers
   bookmarksView.addHandlerForDomEvents(controlInitBookmarks);
   recipeView.addHandlerForDomEvents(controlRecipe);
